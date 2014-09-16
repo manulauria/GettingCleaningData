@@ -69,6 +69,6 @@ and then the means of the following columns (per subject, per activity)
 ... and so on, a total of 86 such columns
 
 This is a total of 89 columns. 
-A new file - newFeatures.txt, has also been submitted.
+A new file - newFeatures.txt, has also been added.
 
-To read the tidy.txt file and view the data, I have created a file viewCSV.R, which has to be isourced from within rstudio by doing a source("viewCSV.R"). This will read in the tidy.txt file and View the resultant variable.
+To read the tidy.txt file and view the data, I have created a file viewCSV.R, which has to be sourced from within rstudio by doing a source("viewCSV.R"). This will read in the tidy.txt file and View the resultant variable.

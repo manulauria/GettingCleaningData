@@ -4,6 +4,7 @@ The original set of features, a description for them, and the details of the exp
 - data/UCI HAR Dataset/features.txt
 - data/UCI HAR Dataset/features_info.txt
 - data/UCI HAR Dataset/README.txt  
+These files have been added here and re-submitted for the sake of completeness, and also since they describe the units etc for all the measurements. The README.txt file has been renamed origREADME.txt to avoid a clash with the README.md here.   
 (we are assuming a directory called "data/UCI HAR Dataset" exists)
 
 The original data was in two directories

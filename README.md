@@ -31,6 +31,8 @@ It was observed that in the test/training directories, there were 3 similar file
 
 It was safe to assume that the X files had the raw data, the y files had a row-wise annotation of the activity for which the data was collected, and the subject file identified the subject for which the row-wise data was collected.
 
+Before describing the processing, the assumption - the place from which the file run_analysis.R is sourced/run has a subdirectory with all the data in the original form, in a directory - "data/UCI HAR Dataset"
+
 ### Processing
 So the job now was to first collect all this data in a single table. The first act was to create 3 sets of columns
 - read the X data on the 561 observations for both test and training set
@@ -68,3 +70,5 @@ and then the means of the following columns (per subject, per activity)
 
 This is a total of 89 columns
 A new file - newFeatures.txt, has also been submitted.
+
+To read the tidy.txt file and view the data, I have created a file viewCSV.R, which has to be isourced from within rstudio by doing a source("viewCSV.R"). This will read in the tidy.txt file and View the resultant variable.

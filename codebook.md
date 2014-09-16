@@ -1,19 +1,19 @@
 Feature Selection 
 =================
 The original set of features, a description for them, and the details of the experiment are described in the files 
-data/UCI HAR Dataset/features.txt
-data/UCI HAR Dataset/features_info.txt
-data/UCI HAR Dataset/README.txt
+- data/UCI HAR Dataset/features.txt
+- data/UCI HAR Dataset/features_info.txt
+- data/UCI HAR Dataset/README.txt
 (we are assuming a directory called "data/UCI HAR Dataset" exists)
 
 The original data was in two directories
-data/UCI HAR Dataset/test
-data/UCI HAR Dataset/train
+- data/UCI HAR Dataset/test
+- data/UCI HAR Dataset/train
 
-The following files existed
-subject_<test/training>.txt
-X_<test/training>.txt
-y_<test/training>.txt
+The following files existed in these directories
+- subject file - the subject annotation for each row
+- X file - the observations (561 columns)
+- y file - the activity annotation for each row
 
 these files had information on the observations on 30 subjects, 6 activities, a total of 10299 observations (7352 for the purpose of "training", and 2947 for "test")
 

@@ -45,3 +45,26 @@ After subsetting the X data for just the required columns, the last part was to
 - aggreate the columns using the "mean" operation, as desired
 
 The final output was 180 rows (30 subjects times 6 activities each) and 86 columns of means (of mean/std columns). This was written out in the file tidy.txt, as directed.
+
+The list of features of this new file
+- subject id/number
+- activity name
+- category of subject (test/train)
+
+and then the means of the following columns (per subject, per activity)
+- tBodyAcc-mean()-X
+- tBodyAcc-mean()-Y
+- tBodyAcc-mean()-Z
+- tBodyAcc-std()-X
+- tBodyAcc-std()-Y
+- tBodyAcc-std()-Z
+- tGravityAcc-mean()-X
+- tGravityAcc-mean()-Y
+- tGravityAcc-mean()-Z
+- tGravityAcc-std()-X
+- tGravityAcc-std()-Y
+- tGravityAcc-std()-Z
+... and so on, a total of 86 such columns
+
+This is a total of 89 columns
+A new file - newFeatures.txt, has also been submitted.

@@ -44,7 +44,7 @@ Additionally, the project asked us to separate the columns that had the words me
 
 After subsetting the X data for just the required columns, the last part was to
 - column bind these columns
-- aggreate the columns using the "mean" operation, as desired
+- aggregate the columns using the "mean" operation, as desired
 
 The final output was 180 rows (30 subjects times 6 activities each) and 86 columns of means (of mean/std columns). This was written out in the file tidy.txt, as directed.
 
@@ -68,7 +68,7 @@ and then the means of the following columns (per subject, per activity)
 - tGravityAcc-std()-Z
 ... and so on, a total of 86 such columns
 
-This is a total of 89 columns
+This is a total of 89 columns. 
 A new file - newFeatures.txt, has also been submitted.
 
 To read the tidy.txt file and view the data, I have created a file viewCSV.R, which has to be isourced from within rstudio by doing a source("viewCSV.R"). This will read in the tidy.txt file and View the resultant variable.

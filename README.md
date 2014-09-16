@@ -2,11 +2,12 @@ GettingCleaningData
 ===================
 
 Course #3 - Getting and Cleaning data - Project Submission
+----------------------------------------------------------
 
-Introduction
+h3. Introduction
 This directory contains my work done for the Coursera course "Getting and Cleaning Data".
 
-The Raw Data
+h3. The Raw Data
 The raw data was an extensive set of files. However, examination of the requirements and the explanatory writeup by the course TA on the discussions forum reveals that only some of this large data set is of relevance for this project.
 
 30 subjects carried a device (a Samsung phone), which had an in-built gyroscope and an accelerometer. These subjects were divided into the "training" set and the "test" set.
@@ -30,7 +31,7 @@ It was observed that in the test/training directories, there were 3 similar file
 
 It was safe to assume that the X files had the raw data, the y files had a row-wise annotation of the activity for which the data was collected, and the subject file identified the subject for which the row-wise data was collected.
 
-Processing
+h3. Processing
 So the job now was to first collect all this data in a single table. The first act was to create 3 sets of columns -
 1. read the X data on the 561 observations for both test and training set
 2. read the y data (the row-wise activity annotation) for both sets

@@ -77,12 +77,12 @@ To read the tidy.txt file and view the data, I have created a file viewCSV.R, wh
 This Directory has
 ------------------
 
-README.md - this file
-codebook.md - the code book
-features.txt - the old "code book" with list of all 561 features
-features_info.txt - the old "code book" explanations
-newFeatures.txt - all 89 new column names
-origREADME.txt - original README file
-run_analysis.R - the code to read raw data and generate the new tidy data
-tidy.txt - the tidy data
-viewCSV.R - a file that reads the tidy data and Views it in RStudio
+README.md - this file  
+codebook.md - the code book  
+features.txt - the old "code book" with list of all 561 features  
+features_info.txt - the old "code book" explanations  
+newFeatures.txt - all 89 new column names  
+origREADME.txt - original README file  
+run_analysis.R - the code to read raw data and generate the new tidy data  
+tidy.txt - the tidy data  
+viewCSV.R - a file that reads the tidy data and Views it in RStudio  

@@ -19,7 +19,7 @@ tidy.txt - the tidy data
 viewCSV.R - a file that reads the tidy data and Views it in RStudio  
 
 ### Download and Unzip
-Prior to the start, it is assumed that the raw data has been downloaded and unzipped in a directory called "data", from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+Prior to the start, it is assumed that the raw data has been downloaded and unzipped in a directory called "data", from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip   
 The unzipping results in a directory "./data/UCI HAR Dataset"
 
 ### The Raw Data
@@ -83,7 +83,6 @@ and then the means of the following columns (per subject, per activity)
 
 This is a total of 89 columns. 
 A new file - newFeatures.txt, has also been added.
-
 
 To read the tidy.txt file and view the data, I have created a file viewCSV.R, which has to be sourced from within rstudio by doing a source("viewCSV.R"). This will read in the tidy.txt file and View the resultant variable.
 

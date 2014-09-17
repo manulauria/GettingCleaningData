@@ -78,7 +78,7 @@ and then the means of the following columns (per subject, per activity)
 - tGravityAcc-mean()-Z
 - tGravityAcc-std()-X
 - tGravityAcc-std()-Y
-- tGravityAcc-std()-Z
+- tGravityAcc-std()-Z  
 ... and so on, a total of 86 such columns
 
 This is a total of 89 columns. 

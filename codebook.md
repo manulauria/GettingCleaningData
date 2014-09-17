@@ -35,37 +35,38 @@ Summary of Columns
 
 Each column is an average (mean) of several values. The initial values were themselves normalized, so are DIMENSIONLESS.
 
-## mean() and std() in X/Y/Z directions for (6X6 = 30 columns)
+### mean() and std() in X/Y/Z directions for (6X6 = 30 columns)
 - tBodyAcc
 - tGravityAcc
 - tBodyAccJerk
 - tBodyGyro
 - tBodyGyroJerk
 
-## mean() and std() for (5 X 2 = 10 columns)
+### mean() and std() for (5 X 2 = 10 columns)
 - tBodyAccMag
 - tGravityAccMag
 - tBodyAccJerkMag
 - tBodyGyroMag
 - tBodyGyroJerkMag
 
-## mean(), std() and meanFreq() in X/Y/Z direction for (3 X 3 X 3 = 27 columns)
+### mean(), std() and meanFreq() in X/Y/Z direction for (3 X 3 X 3 = 27 columns)
 - fBodyAcc
 - fBodyAccJerk
 - fBodyGyro
 
-## mean(), std() and meanFreq() for (4 X 3 = 12 columns)
+### mean(), std() and meanFreq() for (4 X 3 = 12 columns)
 - fBodyAccMag
 - fBodyBodyAccJerkMag
 - fBodyBodyGyroMag
 - fBodyBodyGyroJerkMag
 
-## finally, angles related properties (7 columns)
+### finally, angles related properties (7 columns)
 - angle(tBodyAccMean,gravity)
 - angle(tBodyAccJerkMean),gravityMean)
 - angle(tBodyGyroMean,gravityMean)
 - angle(tBodyGyroJerkMean,gravityMean)
 - angle(X,gravityMean)
 - angle(Y,gravityMean)
-- angle(Z,gravityMean)
+- angle(Z,gravityMean) 
 
+A total of 86 mean of mean/std columns

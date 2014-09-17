@@ -7,16 +7,18 @@ Course #3 - Getting and Cleaning data - Project Submission
 ### Introduction
 This directory contains my work done for the Coursera course "Getting and Cleaning Data".
 
+### Download and Unzip
+Prior to the start, it is assumed that the raw data has been downloaded and unzipped in a directory called "data", from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+The unzipping results in a directory "./data/UCI HAR Dataset"
+
 ### The Raw Data
-The raw data was an extensive set of files. However, examination of the requirements and the explanatory writeup by the course TA on the discussions forum reveals that only some of this large data set is of relevance for this project.
+The raw data was in a large number/set of files. However, an examination of the requirements and the explanatory writeup by the course TA on the discussions forum reveals that only some of this large data set is of relevance for this project.
 
 30 subjects carried a device (a Samsung phone), which had an in-built gyroscope and an accelerometer. These subjects were divided into the "training" set and the "test" set.
 
 Though not relevant for this project, I surmise that the data gathered from the training set subjects for six different activities was perhaps used to "guess" what the test set subjects were doing at various points of time. In the Data Science course #4, we are taught several clustering techniques, and I would assume that the training data was used to "learn" which were the most important parameters to make an accurate guess.
 
-For there is a HUGE set of parameters - 561 of them.
-
-For both sets of subjects, the data had the same number of columns - 561.
+And there IS a HUGE set of parameters - 561 of them. For both sets of subjects (test and training), the data had the same number of columns - 561.
 
 The test data had 2947 observations of 561 variables.
 The training data had 7352 observations of 561 variables.

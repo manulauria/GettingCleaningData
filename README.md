@@ -86,3 +86,8 @@ A new file - newFeatures.txt, has also been added.
 
 To read the tidy.txt file and view the data, I have created a file viewCSV.R, which has to be sourced from within rstudio by doing a source("viewCSV.R"). This will read in the tidy.txt file and View the resultant variable.
 
+## How to replicate these results
+These same results can be replicated as follows  
+- ensure there is a data directory with the unzipped "UCI HAR Dataset" subdirectory
+- open up rstudio
+- do "source('run_analysis.R')" on the prompt

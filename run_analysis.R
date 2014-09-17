@@ -28,8 +28,9 @@ colnames(meanStdColumns) <- features[allCol, 2]
 
 # change activity labels to activity names
 activityLabels <- read.table("data/UCI HAR Dataset/activity_labels.txt")
-actNames <- as.data.frame(apply(allActivity, 1, 
-                          FUN = function(x) activityLabels[x,2])) 
+actNames <- as.data.frame(activityLabels[allActivity[,1],2])
+
+# give each of these (single column) data frames their column names
 colnames(actNames) <- "activity"
 colnames(allSubject) <- "subject"
 colnames(allTag) <- "category"

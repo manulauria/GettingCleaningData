@@ -7,6 +7,17 @@ Course #3 - Getting and Cleaning data - Project Submission
 ### Introduction
 This directory contains my work done for the Coursera course "Getting and Cleaning Data".
 
+### This Directory has
+README.md - this file  
+codebook.md - the new code book  
+features.txt - the old "code book" with list of all 561 features  
+features_info.txt - the old "code book" explanations  
+newFeatures.txt - all 89 new column names  
+origREADME.txt - original README file  
+run_analysis.R - the code to read raw data and generate the new tidy data  
+tidy.txt - the tidy data  
+viewCSV.R - a file that reads the tidy data and Views it in RStudio  
+
 ### Download and Unzip
 Prior to the start, it is assumed that the raw data has been downloaded and unzipped in a directory called "data", from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 The unzipping results in a directory "./data/UCI HAR Dataset"
@@ -76,15 +87,3 @@ A new file - newFeatures.txt, has also been added.
 
 To read the tidy.txt file and view the data, I have created a file viewCSV.R, which has to be sourced from within rstudio by doing a source("viewCSV.R"). This will read in the tidy.txt file and View the resultant variable.
 
-This Directory has
-------------------
-
-README.md - this file  
-codebook.md - the code book  
-features.txt - the old "code book" with list of all 561 features  
-features_info.txt - the old "code book" explanations  
-newFeatures.txt - all 89 new column names  
-origREADME.txt - original README file  
-run_analysis.R - the code to read raw data and generate the new tidy data  
-tidy.txt - the tidy data  
-viewCSV.R - a file that reads the tidy data and Views it in RStudio  

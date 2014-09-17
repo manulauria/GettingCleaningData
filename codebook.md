@@ -28,4 +28,44 @@ Of the 561 columns of data, 86 of them which contained the keywords "mean" and "
 - these columns were bound together column-wise
 - the data table was aggregated by subject and activity using the mean of all values for each subject and each activity
 - the table now has the "mean of means" and "mean of standard deviations" for each subject and each activity for 86 different features.  
-The complete list of variables of each feature vector is available in the file 'newFeatures.txt'
+The complete list of variables of each feature vector is available in the file 'newFeatures.txt'. 
+
+Summary of Columns
+------------------
+
+Each column is an average (mean) of several values. The initial values were themselves normalized, so are DIMENSIONLESS.
+
+## mean() and std() in X/Y/Z directions for (6X6 = 30 columns)
+- tBodyAcc
+- tGravityAcc
+- tBodyAccJerk
+- tBodyGyro
+- tBodyGyroJerk
+
+## mean() and std() for (5 X 2 = 10 columns)
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+
+## mean(), std() and meanFreq() in X/Y/Z direction for (3 X 3 X 3 = 27 columns)
+- fBodyAcc
+- fBodyAccJerk
+- fBodyGyro
+
+## mean(), std() and meanFreq() for (4 X 3 = 12 columns)
+- fBodyAccMag
+- fBodyBodyAccJerkMag
+- fBodyBodyGyroMag
+- fBodyBodyGyroJerkMag
+
+## finally, angles related properties (7 columns)
+- angle(tBodyAccMean,gravity)
+- angle(tBodyAccJerkMean),gravityMean)
+- angle(tBodyGyroMean,gravityMean)
+- angle(tBodyGyroJerkMean,gravityMean)
+- angle(X,gravityMean)
+- angle(Y,gravityMean)
+- angle(Z,gravityMean)
+

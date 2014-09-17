@@ -16,7 +16,7 @@ The following files existed in these directories
 - X file - the observations (561 columns)
 - y file - the activity annotation for each row
 
-these files had information on the observations on 30 subjects, 6 activities, a total of 10299 observations (7352 for the purpose of "training", and 2947 for "test")
+These files had information on the observations on 30 subjects, 6 activities, a total of 10299 observations (7352 for the purpose of "training", and 2947 for "test")
 
 Of the 561 columns of data, 86 of them which contained the keywords "mean" and "std" were extracted. The files/data were stitched together as follows
 - test and training subject related information was bound together row-wise

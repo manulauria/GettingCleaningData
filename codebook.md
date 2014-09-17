@@ -35,7 +35,7 @@ Summary of Columns
 
 Each column is an average (mean) of several values. The initial values were themselves normalized, so are DIMENSIONLESS.
 
-### mean() and std() in X/Y/Z directions for (6X6 = 30 columns)
+### mean() and std() in X/Y/Z directions for (5X6 = 30 columns)
 - tBodyAcc
 - tGravityAcc
 - tBodyAccJerk
@@ -69,4 +69,9 @@ Each column is an average (mean) of several values. The initial values were them
 - angle(Y,gravityMean)
 - angle(Z,gravityMean) 
 
-A total of 86 mean of mean/std columns
+A total of 86 mean of mean/std columns are present in the tidy set.  
+The names are as per the original feature names, though they really represent the means of those quantities.  
+The initial column naming had the feature appended by   
+"-mean()" or "-std()" or "-meanFreq()" 
+and (when the feature is tri-axial) by   
+"-X", "-Y", "-Z".
